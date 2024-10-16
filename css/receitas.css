@@ -1,0 +1,145 @@
+#receitas{
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+#receitas_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#receitas_titulo{
+    color: #FFF2E7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#receitas_subtitulo{
+    color: #C7BAB3;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#receitas_card_container{
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row; /* Horizontal */ 
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+#receitas_card{
+    background-color: #241A1C;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+}
+
+#receitas_card_cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.receitas_detalhes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.amarelo{
+    color: #E7A80E;
+}
+
+.receitas_titulo{
+    color: #FFF2E7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.receitas_avaliacao{
+    color: #756A67;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.receitas_desc{
+    color: #C7BAB3;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.receitas_autor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.receitas_autor img{
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+
+.receitas_autor_nome{
+    color: #C7BAB3;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+    #receitas_conteudo{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #receitas_card_container{
+        width: 100%;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 761px) {
+    #receitas_conteudo{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #receitas_card_container{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #receitas_card_container{
+        width: 100%;
+        padding-left: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1161.60px) {
+    #receitas_conteudo{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
